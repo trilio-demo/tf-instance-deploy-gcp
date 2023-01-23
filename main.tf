@@ -15,7 +15,7 @@ resource "google_compute_instance" "default" {
   count        = "${var.node_count}"
 metadata = {
     "ssh-keys" = <<EOT
-stefankroll:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCdnhE69RAkkyYTzJ9pmRBoVy/XjR/DqLX1BT1tEPOP2LokZN7bKy5WfWwOmV/QznpoAglhhlKPIseG5TwjzFQYRpGcqC9ZOutiNhl+HpY9z4ZAOuAkGgMnAKt0NYXHqPgm7Yu+nLhePOFDglm/tvWakPHZMgUTEHvNwuxEqtBGksEdt4baeiNteOSn6YcGXDnnvPhTo/wT2cH3PMujX/gv+BXkm4Wv/Ac999gM/XeCuEepuOxVJyfvVle7w933etfX1h0dmslTybBxXPmdVEQVbP2JXsfZmxUz5XAd7KBCCICbS3QQ/3Yjf/UAXy0Kxn5Pg0/x9tpuHXOUAGVf8P8ExHN83BT+PdD1OAiqfroDmVlyk1/RJZt1aT7U0jgXv4uQhyghuv4Ab7ot0mRfxfJB4bKm/475TKh5Q6VUjK7zfYaEzrqDUJnTvBqHuM2x1PGfWR5Nx+w8+eniZmBhe0QzerT8hsM6PUUTN5mvfr/0ikQRfLAgAh4gEyCCcJIXsF0= stefankroll@triliobook.local
+stefankroll:ssh-rsa xxxxxxxxxxxxxxxWfWwOmV/QznpoAglhhlKPIseG5TwjzFQYRpGcqC9ZOutixxxxxxxxxxxxxxxxnLhePOFDglm/tvWxxxxxxxxxxxeiNteOSn6YcGXDnnvPhTo/wT2cH3PMujX/gv+BXkm4Wv/Ac999gM/XeCuEepuOxVJyfvVle7w933etfX1h0dmslTybBxXPmdVEQVbP2JXsfZmxUz5XAd7KBCCICbS3QQ/3Yjf/UAXy0Kxn5Pg0/x9tpuHXOUAGVf8P8ExHN83BT+PdD1OAiqfroDmVlyk1/RJZt1aT7U0jgXv4uQhyghuv4Ab7ot0mRfxfJB4bKm/475TKh5Q6VUjK7zfYaEzrqDUJnTvBqHuM2x1PGfWR5Nx+w8+eniZmBhe0QzerT8hsM6PUUTN5mvfr/0ikQRfLAgAh4gEyCCcJIXsF0= stefankroll@triliobook.local
 EOT
   }
   tags = ["stefan", "terraform"]
